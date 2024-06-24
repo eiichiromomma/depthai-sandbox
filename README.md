@@ -26,3 +26,5 @@ python3 -m pip install pymunk pygame
 * depth_post_processing: depthai-aiのサンプルを弄って特定距離範囲を2値化で表示する
 * depth_confidence_post_processing: depthとconfidenceMapを取得する例
 * BouncyBallsDepthAI: 落ちモノインタラクション
+    * a, d: ミラーか否かの選択
+    * w, s, x: 有効Depthの選択と初期化
