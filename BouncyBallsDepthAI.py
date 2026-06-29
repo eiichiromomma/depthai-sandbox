@@ -101,7 +101,7 @@ class BouncyBalls(object):
         self.mindist = 500.0 
         self.maxdist = 1000.0 
         self.mirror = False
-                self._bg_surface = pygame.Surface((self.window_w, self.window_h))
+        self._bg_surface = pygame.Surface((self.window_w, self.window_h))
 
     def run(self) -> None:
         """
